@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_activity"
+    android:layout_marginVertical="12dp"
+    android:layout_marginHorizontal="26dp">
+
+    <ImageView
+        android:id="@+id/signUp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="34dp"
+        android:src="@drawable/ssignup"
+        app:srcCompat="@drawable/login">
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUp"
+        android:orientation="vertical"
+        android:id="@+id/greet">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Hi there"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Good to see you again"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/alatsi"
+            android:text="LOGIN TO CONTINUE"
+            android:textColor="@color/My_primary"
+            android:textSize="26sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greet"
+        android:layout_marginVertical="18dp"
+        android:orientation="vertical"
+        android:id="@+id/form_layout">
+
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/alata"
+            android:hint="  Email - id"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/alata"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textSize="20sp">
+
+        </EditText>
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/alata"
+            android:text="LOGIN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/shape">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <ProgressBar
+            android:layout_width="26dp"
+            android:layout_height="60dp"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="8dp">
+
+        </ProgressBar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/form_layout"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginVertical="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Don't have an account?">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Create account"
+            android:textStyle="bold"
+            android:id="@+id/createAcc_text_btn">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315799643310",
+    "project_id": "scrawl-562b6",
+    "storage_bucket": "scrawl-562b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315799643310:android:ea6be435f88be4497cb93f",
+        "android_client_info": {
+          "package_name": "com.rad.notes_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315799643310-nndemp2afqb56n3tu4hk29b6ipqld9ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlBQ5zoAXFi40OrSPdyuIaEZE7vHR0cIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315799643310-nndemp2afqb56n3tu4hk29b6ipqld9ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
